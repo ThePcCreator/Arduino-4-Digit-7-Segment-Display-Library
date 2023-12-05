@@ -12,3 +12,6 @@ To make this library work, you need:
 How to set up:
 1. Attach the display to the breadboard.
 2. Using jumper wires, connect the pins of the display to the digital I/O pins, exactly like this: (note that the display shown only has 4 pins, but just imagine there are 12) ![image](https://github.com/ThePcCreator/Arduino-4-Digit-7-Segment-Display-Library/assets/152657248/422e5e45-5e22-4619-8df5-4189f6da6eca)
+
+How to use:
+There is a function that writes numbers: writeNum({}
