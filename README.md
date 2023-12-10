@@ -15,18 +15,18 @@ How to set up:
 
 How to use:
 
-First, write "exeSetup();" to set all the I/O pins to output mode and turn them off.
+First, write `exeSetup();` in the `setup` function to set all the I/O pins to output mode and turn them off.
 
-There is one function that you can use to write numbers: "writeNum". You need to provide it 2 arguments: what number to write, and how much times you want it to do the loop(it's kind of like the number of milliseconds to display the number). 
+There is one function that you can use to write numbers: `writeNum`. You need to provide it 2 arguments: what number to write, and how much times you want it to do the loop(it's kind of like the number of milliseconds to display the number). 
 
 
 
 Examples:
 
-writeNum(2938, 3000);
+`writeNum(2938, 3000);`
 
 This will display 2938 on your display for about a second.
 
-writeNum(164, 4500);
+`writeNum(164, 4500);`
 
 This will display 164 on your display for about a second.
